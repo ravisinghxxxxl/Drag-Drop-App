@@ -1,0 +1,21 @@
+ body{
+     background: rgb(11, 0, 107);
+ }
+
+ .imgBox {
+     background-image: url('image.jpg');
+     position: relative;
+     top: 5px;
+     left: 3px;
+     height: 145px;
+     width: 145px;
+     background-size: contain;
+     border-radius: 50%;
+ }
+ .whiteBox {
+     display: inline-block;
+     height: 155px;
+     width: 155px;
+     margin: 10px;
+     background-color: white;
+ }
