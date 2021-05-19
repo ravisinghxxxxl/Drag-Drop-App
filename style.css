@@ -1,21 +1,38 @@
- body{
-     background: rgb(11, 0, 107);
- }
+body {
+  background: rgba(0, 21, 212, 0.623);
+}
 
- .imgBox {
-     background-image: url('image.jpg');
-     position: relative;
-     top: 5px;
-     left: 3px;
-     height: 145px;
-     width: 145px;
-     background-size: contain;
-     border-radius: 50%;
- }
- .whiteBox {
-     display: inline-block;
-     height: 155px;
-     width: 155px;
-     margin: 10px;
-     background-color: white;
- }
+.imgBox {
+    background-image: url(image.jpg);
+    position: relative;
+    top: 1px px;
+    left: 0px;
+    height: 153px;
+    width: 151px;
+    cursor: pointer;
+    background-size: contain;
+}
+.whiteBox {
+  display: inline-block;
+  height: 155px;
+  width: 155px;
+  margin: 20px;
+  background-color: white;
+  border: 3px solid rgba(0, 0, 0, 0.452);
+}
+
+.hold {
+    border: solid 3px red;
+    left: -1px;
+    bottom: 2px;
+}
+
+.hide {
+  display: none;
+}
+
+.dashed {
+    background: #adb3f1;
+    border-style: dashed;
+    box-shadow: 0px 0px 24px 5px #1a0783;
+}
